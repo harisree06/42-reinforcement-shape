@@ -1,8 +1,8 @@
 def draw_shape(options)
   shape = ""
 
-  options[:rows].times do |r|
-    options[:cols].times do |c|
+  options[:rows].times do |row|
+    options[:cols].times do |column|
       shape += options[:char]
     end
     shape += "\n"
